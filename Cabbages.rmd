@@ -67,7 +67,7 @@ This table show us c39 mean is 51.4 while with the c52 is 64.4 they are 13 point
 ```{r}
 t.test(VitC~Cult,data=veggy)
 ```
-The chance of this result is very rare because of the small number in which is .00000003405.There was no differce between the two.
+The chance of this result is very rare because of the small number in which is .00000003405.There was no difference between the two.
 
 
 
@@ -75,3 +75,6 @@ The chance of this result is very rare because of the small number in which is .
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+This type of data explain to us that c52 has a higher than c39 in about 50.Also the max of both c52 and c39 show us that is that one is 68 while the other is 84.In which is big different between them is about 20 pts.
