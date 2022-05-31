@@ -67,7 +67,7 @@ This table show us c39 mean is 51.4 while with the c52 is 64.4 they are 13 point
 ```{r}
 t.test(VitC~Cult,data=veggy)
 ```
-The chance of this result is very rare because of the small number in which is .00000003405.There was no differe between the two.
+The chance of this result is very rare because of the small number in which is .00000003405.There was no differce between the two.
 
 
 
