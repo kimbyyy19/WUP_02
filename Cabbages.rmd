@@ -40,7 +40,7 @@ plot(VitC~Cult,data=veggy)
 ```
 
 
-It seems between the C39 and c52 ,the mean of the C39 is around 52 and the c52 is around 62.Also, the c52 box is higher than the c39, they don't even touch together when is something different.They don't have nothing is common both of the data.
+The median for c52 is higher than that of c39. The box is higher for c52 than c39.The 50 percent of c52 is also higher than that of c39. The boxes will not collide if merged onto one line.
 
 
 ### Numerical Descriptive Results
@@ -53,8 +53,8 @@ favstats(VitC~Cult,data=veggy)
 ```
 
 
-This table show us c39 mean is 51.4 while with the c52 is 64.4 they are 13 points away from each other.The fist quartile  for c52 is higher than the quartile of c39 in which is lower.
 
+The median for c52 is larger than the median of c39. The min for c52 is larger than that of c39, and the max is also larger for c52 than c39. Q3 of c39 is smaller than Q1 of c52.
 
 
 
@@ -67,7 +67,7 @@ This table show us c39 mean is 51.4 while with the c52 is 64.4 they are 13 point
 ```{r}
 t.test(VitC~Cult,data=veggy)
 ```
-The chance of this result is very rare because of the small number in which is .00000003405.There was no difference between the two.
+If there was no difference between c52 and c39 the chances of getting these results is.00000003405.
 
 
 
@@ -77,4 +77,4 @@ The chance of this result is very rare because of the small number in which is .
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
 
-This type of data explain to us that c52 has a higher than c39 in about 50.Also the max of both c52 and c39 show us that is that one is 68 while the other is 84.In which is big different between them is about 20 pts.
+This type of data explain to us  c52 is higher than c39 in about 50%.Also, the max of both c52 and c39 show us that one is 68 while the other is 84.In which is big different between them is about 20 pts.
